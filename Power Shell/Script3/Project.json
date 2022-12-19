@@ -1,0 +1,42 @@
+/*folder structure of project*/
+[ 
+  {
+    "Directory": "D:\\EasyMicroService",
+    "Projects": [
+      {
+        "FolderName": "Configs",
+        "Address": "https://github.com/Easy-Microservise/Configuration.git"
+      },
+      {
+        "FolderName": "FileManager",
+        "Address": "https://github.com/Easy-Microservise/FileManager.git"
+      }
+    ],
+    "SubDirectory": 
+    [
+      {
+        "Directory": "D:\\EasyMicroService\\folder1_1",
+        "Projects": [
+          {
+            "FolderName": "ServiceContract",
+            "Address": "https://github.com/Easy-Microservise/ServiceContracts.git"
+          }
+        ],
+        "SubDirectory": []
+      }
+    ]
+
+  },
+  {
+    "Directory": "D:\\GitHub",
+    "Projects": [
+      {
+        "FolderName": "SignalGo-full-net",
+        "Address": "https://github.com/SignalGo/SignalGo-full-net.git"
+      }
+      
+    ],
+    "SubDirectory": []
+
+  }  
+]

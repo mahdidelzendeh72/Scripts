@@ -1,0 +1,17 @@
+[
+  //comment 1
+  {
+    "Id": 1,
+    "Name": "Mahdi",
+    "Family": "Delzendeh",
+    "url": "www.mysite.com"
+  },
+  /*comment2*/
+  {
+    "Id": 2,
+    "Name": "Ali",
+    "Family": "Yosefi",
+    "url": "www.mysite.com"
+
+  }
+]
