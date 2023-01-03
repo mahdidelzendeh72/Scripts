@@ -19,7 +19,7 @@
 
 param (
     [Parameter][string]$targetDir,
-    [string]$excludeRepos= "ConfigFiles,UtravsBusMicroservices,Utravs.WebHook,Utravs-SSR,Utravs.Site,Utravs.Hub.Web",
+    [string]$excludeRepos= "notallowedFolder,",
     [string]$stopDir= ".git",
     [bool]$canUpdateAllBranches= 0
 	
@@ -54,7 +54,7 @@ foreach($sub in $subDir) {
 			 $curBranch = $(git branch --show-current);
 			 $curBranch = $curBranch.Trim();
 		     Write-Host("..........................updating current branch '" + $curBranch + "' ..........................") -ForegroundColor Red;
-			 git pull upstream Develop;
+			 git pull upstream $curBranch;
 			 if($canUpdateAllBranches){
 				 $branches = $(git branch);
 			 foreach($branch in $branches) {
@@ -68,7 +68,7 @@ foreach($sub in $subDir) {
 
 					git checkout "$branch" -q;
             
-					git pull upstream Develop;
+					git pull upstream $branch;
 
 					Write-Host("");
 				}
@@ -86,7 +86,7 @@ foreach($sub in $subDir) {
 		 $curBranch = $(git branch --show-current);
 	     $curBranch = $curBranch.Trim();
 		 Write-Host("------------------------updating current branch '" + $curBranch + "' -----------------------------") -ForegroundColor Green;
-	     git pull upstream Develop;
+	     git pull upstream $curBranch;
 		 if($canUpdateAllBranches) {
 		  $branches = $(git branch);
 		  foreach($branch in $branches) {
@@ -100,7 +100,7 @@ foreach($sub in $subDir) {
 
 					git checkout "$branch" -q;
             
-					git pull upstream Develop;
+					git pull upstream $branch;
 
 					Write-Host("");
 				}
