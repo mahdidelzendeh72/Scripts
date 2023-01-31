@@ -1,42 +1,65 @@
 /*folder structure of project*/
 [ 
   {
-    "Directory": "D:\\EasyMicroService",
+    "Directory": "D:\\EasyMicroService\\Components",
     "Projects": [
-      {
-        "FolderName": "Configs",
-        "Address": "https://github.com/Easy-Microservise/Configuration.git"
-      },
       {
         "FolderName": "FileManager",
-        "Address": "https://github.com/Easy-Microservise/FileManager.git"
-      }
-    ],
-    "SubDirectory": 
-    [
+        "Address": "https://github.com/EasyMicroservices/FileManager.git"
+      },
       {
-        "Directory": "D:\\EasyMicroService\\folder1_1",
-        "Projects": [
-          {
-            "FolderName": "ServiceContract",
-            "Address": "https://github.com/Easy-Microservise/ServiceContracts.git"
-          }
-        ],
-        "SubDirectory": []
+        "FolderName": "Utilities",
+        "Address": "https://github.com/EasyMicroservices/Utilities.git"
+      },
+      {
+        "FolderName": "Database",
+        "Address": "https://github.com/EasyMicroservices/Database.git"
+      },
+      {
+        "FolderName": "Logger",
+        "Address": "https://github.com/EasyMicroservices/Logger.git"
+      },
+      {
+        "FolderName": "Serialization",
+        "Address": "https://github.com/EasyMicroservices/Serialization.git"
+      },
+      {
+        "FolderName": "Tests",
+        "Address": "https://github.com/EasyMicroservices/Tests.git"
+      },
+      {
+        "FolderName": "Caching",
+        "Address": "https://github.com/EasyMicroservices/Caching.git"
+      },
+      {
+        "FolderName": "Laboratory",
+        "Address": "https://github.com/EasyMicroservices/Laboratory.git"
+      },
+      {
+        "FolderName": "Security",
+        "Address": "https://github.com/EasyMicroservices/Security.git"
+      },
+      {
+        "FolderName": "Blazor",
+        "Address": "https://github.com/EasyMicroservices/Blazor.git"
+      },
+      {
+        "FolderName": "Configuration",
+        "Address": "https://github.com/EasyMicroservices/Configuration.git"
+      },
+      {
+        "FolderName": "Network",
+        "Address": "https://github.com/EasyMicroservices/Network.git"
+      },
+      {
+        "FolderName": "ServiceContracts",
+        "Address": "https://github.com/EasyMicroservices/ServiceContracts.git"
+      },
+      {
+        "FolderName": "Mapper",
+        "Address": "https://github.com/EasyMicroservices/Mapper.git"
       }
     ]
-
-  },
-  {
-    "Directory": "D:\\GitHub",
-    "Projects": [
-      {
-        "FolderName": "SignalGo-full-net",
-        "Address": "https://github.com/SignalGo/SignalGo-full-net.git"
-      }
-      
-    ],
-    "SubDirectory": []
-
-  }  
+    
+  }    
 ]
